@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Bootstrap CSS-->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+
+    <title>SF Global Food</title>
+
+    <style>
+      h1 {
+        color: rgb(44, 34, 34);
+      }
+      .earth {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+      }
+      body {
+        background-color: lightyellow;
+      }
+      div.btn-group {
+        overflow: hidden;
+        position: fixed;
+        bottom: 0;
+        width: 100;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="pos-f-t">
+      <div class="collapse" id="navbarToggleExternalContent">
+        <div class="bg-dark p-4">
+          <h5 class="text-white h4">Food from around the world</h5>
+          <span class="text-muted">Explore</span>
+        </div>
+      </div>
+
+      <nav class="navbar navbar-dark bg-dark">
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarToggleExternalContent"
+          aria-controls="navbarToggleExternalContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      </nav>
+    </div>
+
+    <h1 style="text-align:center;">
+      San Francisco: Food from Around the World
+    </h1>
+    <p style="text-align:center;">
+      Discover the best restaurants San Francisco has to offer and flavorful
+      cuisines from different parts of the globe.
+    </p>
+
+    <img
+      src="earthcartoon.jpg"
+      alt="earth"
+      class="earth"
+      width="500"
+      length="60"
+    />
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <div style="width:100%;height:400px;">
+      <img
+        src="french.png"
+        alt="french"
+        style="float:left;width: 33.30%;height:100%;"
+      />
+      <img
+        src="mexican.jpg"
+        alt="Mexican"
+        style="float:left;width:33.3%;height:100%;"
+      />
+      <img
+        src="venezuelan.jpg"
+        alt="venezuelan"
+        style="float:left;width:33.3%; height:100%;"
+      />
+    </div>
+
+    <div class="list-view"></div>
+    <div class="detail-view"></div>
+    <script src="./src/index.js"></script>
+  </body>
+</html>
